@@ -47,6 +47,14 @@ module Eventbrite
       def event_transfers(event, options = {})
         perform_with_cursor(:get, :v3, "/v3/events/#{extract_id(event)}/transfers/", options, :transfers, Eventbrite::Transfer)
       end
+
+      def event_ticket_classes(event, options = {})
+        perform_with_cursor(:get, :v3, "/v3/events/#{extract_id(event)}/ticket_classes/", options, :ticket_classes, Eventbrite::TicketClass)
+      end
+
+      def event_ticket_class(event, ticket_class_id, options = {})
+        perform_with_cursor(:get, :v3, "/v3/events/#{extract_id(event)}/ticket_classes/#{ticket_class_id}/", options, Eventbrite::TicketClass)
+      end
     end
   end
 end
