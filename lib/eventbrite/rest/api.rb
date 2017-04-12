@@ -3,6 +3,7 @@ require 'eventbrite/rest/orders'
 require 'eventbrite/rest/user_organizers'
 require 'eventbrite/rest/users'
 require 'eventbrite/rest/ticket_classes'
+require 'eventbrite/rest/webhooks'
 
 module Eventbrite
   module REST
@@ -14,6 +15,7 @@ module Eventbrite
       include Eventbrite::REST::UserOrganizers
       include Eventbrite::REST::Users
       include Eventbrite::REST::TicketClasses
+      include Eventbrite::REST::Webhooks
 
     private
       def connection_v3

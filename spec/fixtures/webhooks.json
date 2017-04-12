@@ -1,0 +1,24 @@
+{
+  "webhooks": [
+    {
+      "resource_uri": "https://www.eventbriteapi.com/v3/webhooks/360536/",
+      "endpoint_url": "https://54b7fc2c.ap.ngrok.io/webhooks/eventbrite",
+      "actions": [
+        "attendee.updated",
+        "order.placed",
+        "order.refunded",
+        "order.updated"
+      ],
+      "id": "360536",
+      "user_id": "23217496728",
+      "created": "2017-04-02T21:31:57Z",
+      "event_id": null
+    }
+  ],
+  "pagination": {
+    "object_count": 1,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1
+  }
+}

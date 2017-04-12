@@ -1,0 +1,11 @@
+{
+  "resource_uri": "https://www.eventbriteapi.com/v3/webhooks/369708/",
+  "endpoint_url": "https://123.com/123",
+  "actions": [
+    "attendee.updated"
+  ],
+  "id": "369708",
+  "user_id": "23217496728",
+  "created": "2017-04-12T20:55:45Z",
+  "event_id": "16531748906"
+}
