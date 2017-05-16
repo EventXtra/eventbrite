@@ -9,7 +9,7 @@ module Eventbrite
 
     attr_reader :affiliate, :cancelled, :checked_in, :event_id,
         :order_id, :quantity, :refunded, :resource_uri, :status,
-        :ticket_class_id
+        :ticket_class_id, :ticket_class_name
 
     object_attr_reader :Event, :event
     object_attr_reader :Order, :order
