@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   # Gems
   spec.add_dependency 'simple_oauth', '~> 0.2.0'
   spec.add_dependency 'addressable', '~> 2.3'
-  spec.add_dependency 'faraday', '~> 0.9.0'
+  spec.add_dependency 'faraday', '~> 0.15.0'
   spec.add_dependency 'http', '~> 2.0.0'
   spec.add_dependency 'http_parser.rb', '~> 0.6.0'
   spec.add_runtime_dependency 'json', '>= 1.7.7'
